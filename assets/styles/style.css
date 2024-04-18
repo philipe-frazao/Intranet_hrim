@@ -23,25 +23,38 @@
   
   #side_bar {
     background-color: white; 
-    width: 23%;
+    width: 250px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
-  #side_bar #menu {
-    margin-top: 30px;
+  #side_bar #logo {
+    width: 150px;
+    overflow: hidden;
+    margin-top: 35px;
+    margin-bottom: 10px;
   }
+
+  #side_bar #logo img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+ 
   
-  #side_bar ul {
+  #side_bar .menu_fist {
     display: flex;
     flex-direction: column;
     list-style-type: none;
   }
   
-  #side_bar ul li {
+  #side_bar .menu_fist li {
     padding: 7px;
   }
   
-  #side_bar ul li a {
+  #side_bar .menu_fist li a {
     width: 210px;
     height: 50px;
     padding: 0 3px;
@@ -50,15 +63,45 @@
     display: inline-block; 
     text-decoration: none;
     color: var(--color-green-150);
-    transition: 0.2s;
+    transition: 0.5s;
   }
   
-  #side_bar ul li a:hover {
+  #side_bar .menu_fist li a:hover {
     background-color: var(--color-green-100);
     color: white;
   }
   
-  #side_bar ul li a i{
+  #side_bar .menu_fist li a i{
     padding: 0 10px;
   }
   
+
+  #side_bar .menu_fist .menu_second {
+    display: none;
+    list-style-type: none;
+}
+
+#side_bar .menu_fist li:hover .menu_second {
+    display: block;
+}
+
+  #side_bar .menu_fist .menu_second {
+    width: 100px;
+    transition: 2s;
+  }
+
+  #side_bar .menu_fist .menu_second li {
+    margin-left: 15px;
+  }
+
+  #side_bar .menu_fist .menu_second li a {
+    display: inline-block;
+    font-size: 0.8rem;
+    width: 170px;
+    height: 30px;
+    padding: 0 3px;
+    line-height: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
