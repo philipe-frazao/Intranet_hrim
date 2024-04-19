@@ -19,6 +19,7 @@
   
   body {
     background-color: var(--color-gray-50);
+    display: flex;
   }
   
   #side_bar {
@@ -106,7 +107,7 @@
   }
 
   #home {
-    width: 800px;
+    width: 1000px;
   }
   
   #home #barra_top {
@@ -159,3 +160,75 @@
     color: var(--color-gray-150);
   }
 
+
+  #side_bar_frame {
+    width: 260px;
+    margin: 20px;
+  }
+
+  #side_bar_frame #disclaimer{
+    width: 100%;
+    height: 50vh;
+  }
+
+  #side_bar_frame #disclaimer .conteudo_disclaimer {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #side_bar_frame #disclaimer .conteudo_disclaimer ul {
+    height: 260px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+
+  #side_bar_frame #disclaimer .conteudo_disclaimer li {
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  #side_bar_frame #disclaimer .conteudo_disclaimer h1 {
+    width: 100%;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: var(--color-green-150);
+    color: gold;
+  }
+
+  #side_bar_frame #disclaimer .conteudo_disclaimer h1 span {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  #side_bar_frame #disclaimer .conteudo_disclaimer a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: var(--color-green-150);
+    width: 210px;
+    height: 50px;
+    padding: 0 3px;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+  }
+
+  #side_bar_frame #disclaimer .conteudo_disclaimer a:hover {
+  background-color: var(--color-green-150);
+    color: white;
+  }
