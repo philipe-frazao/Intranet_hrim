@@ -173,7 +173,8 @@
 
   #side_bar_frame #disclaimer{
     width: 100%;
-    height: 50vh;
+    height: 380px;
+    margin-bottom: 20px;
   }
 
   #side_bar_frame #disclaimer .conteudo_disclaimer {
