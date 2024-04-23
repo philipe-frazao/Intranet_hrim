@@ -11,6 +11,7 @@
   --color-gray-150: #686966;
   --color-gray-200: #363735;
 
+  --color-light-0: #fff;
   --color-light-50: #e5e1d6;
   --color-light-100: #c8c4ba;
   }
@@ -23,7 +24,7 @@
   }
   
   body {
-    background-color: var(--color-gray-50);
+    background-color: var(--color-light-50);
     display: flex;
   }
   
@@ -188,7 +189,7 @@
   #home_page .home_content {
     width: 250px;
     height: 280px;
-    background-color: var(--color-light-50);
+    background-color: var(--color-light-0);
     border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
@@ -313,14 +314,14 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin: 15px 0;
-    color: var(--color-light-50);
+    color: var(--color-light-0);
   }
   
   #notices #notices_disclaimer {
     width: 90%;
     height: 300px;
     border-radius: 12px;
-    background-color: var(--color-light-50);
+    background-color: var(--color-light-0);
   }
   
   #notices #notices_disclaimer .notices_content {
