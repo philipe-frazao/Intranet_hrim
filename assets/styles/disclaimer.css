@@ -2,7 +2,7 @@
 
 #disclaimer {
     width: 260px;
-    margin: 20px;
+    margin: 5px;
   }
 
   #disclaimer #disclaimer_content{
@@ -44,6 +44,7 @@
     text-align: center;
     font-size: 1.2rem;
     background-color: var(--color-green-150);
+    color: var(--color-light-0);
   }
 
   #disclaimer #disclaimer_content .conteudo_disclaimer h1 span {
