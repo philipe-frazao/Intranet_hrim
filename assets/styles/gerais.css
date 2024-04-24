@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+:root {
+  --color-green-50: #a1e146;
+  --color-green-100: #8cc53e;
+  --color-green-150: #77a734;
+
+  --color-gray-0: #bec0bb;
+  --color-gray-50: #a2a49f;
+  --color-gray-100: #868884;
+  --color-gray-150: #686966;
+  --color-gray-200: #363735;
+
+  --color-light-0: #fff;
+  --color-light-50: #e5e1d6;
+  --color-light-100: #c8c4ba;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    background-color: var(--color-light-50);
+    display: flex;
+  }
