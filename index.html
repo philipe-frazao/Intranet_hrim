@@ -7,6 +7,7 @@
     <title>Hrim</title>
 
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="stylesheet" href="assets/styles/swiper-bundle.min.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -17,6 +18,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
@@ -131,8 +136,7 @@
                 <a href="@">
                     <h2>Controle de Infecção</h2>
                     <p>Relátorios, Fluxos, Isolamentos, Microecologia e Protocolos</p>
-                    <img src="assets/images/infecçao.jpg"
-                        alt="Controle de infecção">
+                    <img src="assets/images/infecçao.jpg" alt="Controle de infecção">
                 </a>
             </div>
             <div class="home_content">
@@ -152,8 +156,9 @@
             <div class="home_content">
                 <a href="@">
                     <h2>Gestão de Qualidade</h2>
-                    <p>Politica de Qualidade, mapa de Processos, Ciclos de melhoria, Indicadores, Certificações, Relatórios e Projetos</p>
-                <img src="assets/images/qualidade.jpg" alt="Gestão de Qualidade">
+                    <p>Politica de Qualidade, mapa de Processos, Ciclos de melhoria, Indicadores, Certificações,
+                        Relatórios e Projetos</p>
+                    <img src="assets/images/qualidade.jpg" alt="Gestão de Qualidade">
                 </a>
             </div>
             <div class="home_content">
@@ -206,10 +211,10 @@
                 </ul>
             </div>
         </div>
-        <section id="notices">
+        <section id="notices" class="mySwiper">
             <h2>Comunidados</h2>
-            <div id="notices_disclaimer">
-                <div class="notices_content">
+            <div id="notices_disclaimer" class="swiper-wrapper">
+                <div class="notices_content swiper-slide">
                     <h3>Alerta de Dengue</h3>
                     <h4>Para evitar a dengue, siga estas dicas:</h4>
                     <ul>
@@ -222,9 +227,25 @@
                     <p><strong>Todos juntos contra o mosquito.</strong></p>
                 </div>
 
+                <div class="notices_content swiper-slide">
+                    <h3>Alerta de Gripe</h3>
+                    <h4>Para prevenir a gripe, adote estas medidas:</h4>
+                    <ul>
+                      <li>Vacine-se anualmente contra a gripe.</li>
+                      <li>Lave as mãos frequentemente com água e sabão.</li>
+                      <li>Evite contato próximo com pessoas doentes.</li>
+                      <li>Cubra o nariz e a boca ao tossir ou espirrar.</li>
+                      <li>Mantenha ambientes bem ventilados.</li>
+                    </ul>
+                    <p><strong>Cuide de si mesmo e dos outros para evitar a gripe.</strong></p>
+                  </div>
+
             </div>
         </section>
     </section>
+
+    <script src="swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
