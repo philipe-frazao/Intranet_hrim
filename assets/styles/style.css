@@ -151,6 +151,7 @@
     background-color: transparent;
     color: var(--color-gray-150);
     cursor: pointer;
+    transition: all 0.5s;
   }
   
   #home #barra_top #barra_pesquisa #btn_search:hover {
@@ -165,6 +166,14 @@
   #home #barra_top #data_home p {
     font-size: 0.9rem;
     color: var(--color-gray-150);
+  }
+
+  #home #barra_top #notification {
+    transition: all 0.5s;
+  }
+
+  #home #barra_top #notification:hover {
+    transform: scale(1.05);
   }
   
   #home #barra_top #notification a i{
@@ -336,12 +345,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    cursor: grab;
   }
 
-  #notices #notices_disclaimer .notices_content:active {
-    cursor: grabbing;
-  }
   
   #notices #notices_disclaimer .notices_content h3 {
     font-size: 1rem;
