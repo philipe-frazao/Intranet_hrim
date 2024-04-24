@@ -92,6 +92,7 @@
     border-radius: 15px;
     cursor: pointer;
     transition: 0.3s;
+    overflow: hidden;
   }
   
   #home_page .home_content:hover {

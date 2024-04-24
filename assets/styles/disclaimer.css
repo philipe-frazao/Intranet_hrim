@@ -1,17 +1,17 @@
 @import url(gerais.css);
 
-#side_bar_frame {
+#disclaimer {
     width: 260px;
     margin: 20px;
   }
 
-  #side_bar_frame #disclaimer{
+  #disclaimer #disclaimer_content{
     width: 100%;
     height: 350px;
     margin-bottom: 12px;
   }
 
-  #side_bar_frame #disclaimer .conteudo_disclaimer {
+  #disclaimer #disclaimer_content .conteudo_disclaimer {
     width: 100%;
     height: 100%;
     border: none;
@@ -22,7 +22,7 @@
     align-items: center;
   }
 
-  #side_bar_frame #disclaimer .conteudo_disclaimer ul {
+  #disclaimer #disclaimer_content .conteudo_disclaimer ul {
     height: 260px;
     margin-top: 5px;
     display: flex;
@@ -31,12 +31,12 @@
     list-style-type: none;
   }
 
-  #side_bar_frame #disclaimer .conteudo_disclaimer li {
+  #disclaimer #disclaimer_content .conteudo_disclaimer li {
     text-align: center;
     padding: 0 15px;
   }
 
-  #side_bar_frame #disclaimer .conteudo_disclaimer h1 {
+  #disclaimer #disclaimer_content .conteudo_disclaimer h1 {
     width: 100%;
     height: 80px;
     border-radius: 10px 10px 0px 0px;
@@ -47,13 +47,13 @@
     color: gold;
   }
 
-  #side_bar_frame #disclaimer .conteudo_disclaimer h1 span {
+  #disclaimer #disclaimer_content .conteudo_disclaimer h1 span {
     color: white;
     font-size: 1.2rem;
     font-weight: 300;
   }
 
-  #side_bar_frame #disclaimer .conteudo_disclaimer a {
+  #disclaimer #disclaimer_content .conteudo_disclaimer a {
     text-decoration: none;
     font-size: 0.8rem;
     color: var(--color-green-150);
@@ -68,7 +68,7 @@
     transition: 0.3s;
   }
 
-  #side_bar_frame #disclaimer .conteudo_disclaimer a:hover {
+  #disclaimer #disclaimer_content .conteudo_disclaimer a:hover {
   background-color: var(--color-green-150);
     color: white;
   }
