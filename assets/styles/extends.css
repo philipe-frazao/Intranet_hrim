@@ -1,0 +1,7 @@
+@import './gerais.css';
+@import './variables.css';
+
+@import './components/disclaimer.css';
+@import './components/home.css';
+@import './components/search_bar.css';
+@import './components/side_bar.css';

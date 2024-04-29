@@ -15,18 +15,10 @@
     margin-top: 35px;
     margin-bottom: 10px;
   }
-
-  #side_bar #logo img {
-    width: 100%;
-    object-fit: cover;
-  }
-
- 
   
   #side_bar .menu_fist {
     display: flex;
     flex-direction: column;
-    list-style-type: none;
     position: fixed;
     left: 0;
   }

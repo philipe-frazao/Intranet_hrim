@@ -1,0 +1,49 @@
+#search_bar_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#search_bar_container #search_bar {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 40px;
+    background-color: white;
+}
+
+#search_bar_container #search_bar #input_search {
+    width: 93%;
+    height: 50%;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+}
+
+#search_bar_container #search_bar #btn_search {
+    border: none;
+    background-color: transparent;
+    color: var(--color-gray-150);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#search_bar_container #search_bar #btn_search:hover {
+    transform: scale(1.05);
+}
+
+#search_bar_container #email_page {
+    transition: all 0.5s;
+}
+
+#search_bar_container #email_page:hover {
+    transform: scale(1.05);
+}
+
+#search_bar_container #email_page a i {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--color-gray-150);
+}
