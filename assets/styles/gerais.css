@@ -10,6 +10,7 @@
   body {
     background-color: var(--color-light-50);
     display: flex;
+    position: relative;
   }
 
   ul {

@@ -2,7 +2,7 @@
 
 #side_bar {
     background-color: white; 
-    width: 250px;
+    width:18rem;
     height: 100vh;
     display: flex;
     flex-direction: column;
